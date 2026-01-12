@@ -26,19 +26,19 @@
     },
     "About": {
         "title": "Tentang",
-        "metaDesc": "Temukan lebih dalam tentang Dwi Wijaya, seorang Fullstack Developer berpengalaman dengan keterampilan coding web, desain UI/UX, dan pengembangan aplikasi. Mari kita kenal lebih dekat!",
+        "metaDesc": "Temukan lebih dalam tentang Teguh Muhammad Harits, seorang Fullstack Developer berpengalaman dengan keterampilan coding web, desain UI/UX, dan pengembangan aplikasi. Mari kita kenal lebih dekat!",
         "subtitle": "Ayo, kenali saya lebih dekat dan temukan lebih banyak di balik CV saya.",
         "journeyTitle": "Perjalanan Saya",
         "valuesTitle": "Nilai dan Filosofi",
         "funTitle": "Fakta Menarik",
-        "intro": "Hai, saya Dwi Wijaya, seorang pengembang web full-stack yang bersemangat dengan kecintaan dalam menciptakan situs web yang dinamis dan ramah pengguna. Dengan pengalaman lebih dari 2 tahun di industri ini, saya mengkhususkan diri dalam pengembangan front-end dan memiliki perhatian yang tajam terhadap desain dan detail. Tujuan saya adalah untuk menciptakan situs web yang sempurna secara pixel yang tidak hanya memenuhi kebutuhan klien tetapi juga melebihi harapan mereka.",
+        "intro": "Hai, saya Teguh Muhammad Harits, seorang pengembang web full-stack yang bersemangat dengan kecintaan dalam menciptakan situs web yang dinamis dan ramah pengguna. Dengan pengalaman lebih dari 2 tahun di industri ini, saya mengkhususkan diri dalam pengembangan front-end dan memiliki perhatian yang tajam terhadap desain dan detail. Tujuan saya adalah untuk menciptakan situs web yang sempurna secara pixel yang tidak hanya memenuhi kebutuhan klien tetapi juga melebihi harapan mereka.",
         "journey": "Karier saya dalam pengembangan web dimulai selama tahun-tahun saya di Sekolah Menengah, di mana saya mengambil jurusan Teknik Perangkat Lunak. Pekerjaan pertama saya adalah di sebuah software-house kecil, di mana saya belajar dasar-dasar pengembangan web dan menemukan kecintaan saya terhadap coding. Selama bertahun-tahun, saya telah memiliki kesempatan untuk bekerja pada berbagai proyek yang menarik. Setiap pengalaman telah berkontribusi pada pertumbuhan saya sebagai pengembang dan telah membantu saya mengasah keterampilan saya.",
         "values": "Saya percaya pada pembelajaran berkelanjutan dan pengembangan diri. Saya didorong oleh keinginan untuk menciptakan situs web yang tidak hanya fungsional tetapi juga estetis menyenangkan. Pekerjaan saya dipandu oleh prinsip kesederhanaan, kegunaan, dan aksesibilitas. Saya berusaha untuk mengikuti tren dan teknologi terbaru dalam pengembangan web untuk memastikan bahwa keterampilan saya selalu mutakhir.",
         "funfact": "Saya belum memiliki fakta menarik 😭."
     },
     "Services": {
         "title": "Layanan",
-        "metaDesc": "Jelajahi layanan khusus yang ditawarkan Dwi Wijaya, mulai dari pengembangan web, pengembangan aplikasi, UI/UX, design, hingga konsultasi. Solusi yang disesuaikan untuk mewujudkan visi digital Anda.",
+        "metaDesc": "Jelajahi layanan khusus yang ditawarkan Teguh Muhammad Harits, mulai dari pengembangan web, pengembangan aplikasi, UI/UX, design, hingga konsultasi. Solusi yang disesuaikan untuk mewujudkan visi digital Anda.",
         "subtitle": "Temukan layanan khusus yang saya tawarkan untuk klien.",
         "FAQ": {
             "faqHeading": "Pertanyaan yang Sering Diajukan",
@@ -49,7 +49,7 @@
     },
     "Contact": {
         "title": "Hubungi Saya",
-        "metaDesc": "Hubungi Dwi Wijaya untuk kolaborasi atau pertanyaan. Terhubung melalui media sosial atau kirim pesan langsung.",
+        "metaDesc": "Hubungi Teguh Muhammad Harits untuk kolaborasi atau pertanyaan. Terhubung melalui media sosial atau kirim pesan langsung.",
         "subtitle": "Ayo, hubungi saya dan mulailah percakapan tentang kemungkinan kerja sama atau pertanyaan Anda.",
         "findSocial": "Temukan saya di media sosial",
         "orsendMsg": "Atau kirimkan pesan kepada saya",
@@ -70,7 +70,7 @@
     },
     "Blog": {
         "title": "Blog",
-        "metaDesc": "Temukan artikel tentang kode, kreativitas, dan pembelajaran dari Dwi Wijaya. Wawasan dan pembaruan dari perjalanan seorang Dwi Wijaya.",
+        "metaDesc": "Temukan artikel tentang kode, kreativitas, dan pembelajaran dari Teguh Muhammad Harits. Wawasan dan pembaruan dari perjalanan seorang Teguh Muhammad Harits.",
         "subtitle": "Menjelajahi dunia kode, kreativitas, dan pembelajaran tanpa henti."
     },
     "Common": {
@@ -79,7 +79,7 @@
     },
     "Dashboard": {
         "title": "Dasbor",
-        "metaDesc": "Jelajahi dashboard pribadi Dwi Wijaya yang menampilkan wawasan kecepatan halaman, kontribusi GitHub, dan kemajuan LeetCode.",
+        "metaDesc": "Jelajahi dashboard pribadi Teguh Muhammad Harits yang menampilkan wawasan kecepatan halaman, kontribusi GitHub, dan kemajuan LeetCode.",
         "subtitle": "Ini adalah dashboard personal website saya dibuat dengan serverless function.",
         "pagespeedTitle": "Pagespeed Insight",
         "githubTitle": "Kontribusi GitHub",
@@ -90,19 +90,19 @@
     },
     "Skillset": {
         "title": "Keahlian",
-        "metaDesc": "Temukan keterampilan teknis Dwi Wijaya, alat profesional, dan sertifikat yang menunjukkan keahliannya dalam pengembangan Full-stack.",
+        "metaDesc": "Temukan keterampilan teknis Teguh Muhammad Harits, alat profesional, dan sertifikat yang menunjukkan keahliannya dalam pengembangan Full-stack.",
         "subtitle": "Jelajahi terkait keahlian teknis dan alat profesional saya.",
         "certificateTitle": "Sertifikasi",
         "certificateSubtitle": "Beberapa showcase sertifikat professional saya."
     },
     "Experience": {
         "title": "Pengalaman",
-        "metaDesc": "Jelajahi latar belakang profesional Dwi Wijaya yang menampilkan pengalaman utama dan pencapaian kariernya.",
+        "metaDesc": "Jelajahi latar belakang profesional Teguh Muhammad Harits yang menampilkan pengalaman utama dan pencapaian kariernya.",
         "subtitle": "Temukan latar belakang profesional dan pengalaman berharga saya."
     },
     "Portfolio": {
         "title": "Portofolio",
-        "metaDesc": "Telusuri portofolio Dwi Wijaya yang menampilkan proyek terbaru dan pencapaian kreatifnya dalam pengembangan web, pengembangan aplikasi, desain UI/UX, Design dan lainnya.",
+        "metaDesc": "Telusuri portofolio Teguh Muhammad Harits yang menampilkan proyek terbaru dan pencapaian kreatifnya dalam pengembangan web, pengembangan aplikasi, desain UI/UX, Design dan lainnya.",
         "subtitle": "Jelajahi proyek dan karya terbaru saya.",
         "noPortfolio": "Maaf, saat ini belum ada portfolio untuk kategori {category}",
         "seePortfolio": "Lihat Proyek"

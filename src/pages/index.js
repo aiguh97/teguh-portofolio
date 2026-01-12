@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Dwi Wijaya - Personal Website"
-        description="Dwi Wijaya is a passionate and versatile individual with a strong focus on web development. With expertise in Next.js, he creates dynamic and responsive websites that deliver seamless user experiences."
+        title="Teguh Muhammad Harits - Personal Website"
+        description="Teguh Muhammad Harits is a passionate and versatile individual with a strong focus on web development. With expertise in Next.js, he creates dynamic and responsive websites that deliver seamless user experiences."
         additionalLinkTags={[
           { rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}` },
           { rel: 'alternate', hreflang: 'id', href: `${SITE_URL}` },

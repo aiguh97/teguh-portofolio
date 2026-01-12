@@ -1,15 +1,15 @@
-const metaDescription = 'Dwi Wijaya is a Full-Stack Developer, specializes in building efficient, scalable web & apps with seamless user experiences. Let’s bring your vision to life!';
+const metaDescription = 'Teguh Muhammad Harits is a Full-Stack Developer, specializes in building efficient, scalable web & apps with seamless user experiences. Let’s bring your vision to life!';
 const metaImage = 'https://dwiwijaya.com/og-image.png';
 
 const getDefaultSEOConfig = (locale) => ({
-  title: 'Dwi Wijaya - Personal Website',
-  defaultTitle: 'Dwi Wijaya - Personal Website',
+  title: 'Teguh Muhammad Harits - Personal Website',
+  defaultTitle: 'Teguh Muhammad Harits - Personal Website',
   description: metaDescription,
   openGraph: {
-    title: 'Dwi Wijaya - Personal Website',
+    title: 'Teguh Muhammad Harits - Personal Website',
     description: metaDescription,
     type: 'profile',
-    siteName: 'Dwi Wijaya',
+    siteName: 'Teguh Muhammad Harits',
     locale: locale === 'id' ? 'id_ID' : 'en_US',
     profile: {
       first_name: 'Dwi',
@@ -20,19 +20,19 @@ const getDefaultSEOConfig = (locale) => ({
       
       {
         url: metaImage,
-        alt: 'Dwi Wijaya - og:image',
+        alt: 'Teguh Muhammad Harits - og:image',
         width: 800,
         height: 600,
       },
       {
         url: metaImage,
-        alt: 'Dwi Wijaya - og:image',
+        alt: 'Teguh Muhammad Harits - og:image',
         width: 1200,
         height: 630,
       },
       {
         url: metaImage,
-        alt: 'Dwi Wijaya - og:image',
+        alt: 'Teguh Muhammad Harits - og:image',
         width: 1600,
         height: 900,
       },
@@ -41,7 +41,7 @@ const getDefaultSEOConfig = (locale) => ({
   twitter: {
     handle: '@DwiWijaya',
     site: '@dwiwijaya',
-    title: 'Dwi Wijaya - Personal Website',
+    title: 'Teguh Muhammad Harits - Personal Website',
     cardType: 'summary_large_image',
   },
   additionalMetaTags: [
@@ -55,7 +55,7 @@ const getDefaultSEOConfig = (locale) => ({
     },
     {
       name: 'author',
-      content: 'Dwi Wijaya',
+      content: 'Teguh Muhammad Harits',
     },
     {
       name: 'theme-color',
@@ -71,11 +71,11 @@ const getDefaultSEOConfig = (locale) => ({
     },
     {
       name: 'application-name',
-      content: 'Dwi Wijaya',
+      content: 'Teguh Muhammad Harits',
     },
     {
       name: 'apple-mobile-web-app-title',
-      content: 'Dwi Wijaya',
+      content: 'Teguh Muhammad Harits',
     },
     {
       name: 'apple-mobile-web-app-status-bar-style',

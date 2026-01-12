@@ -20,7 +20,7 @@ const GuestbookPage = ({ fallback }) => {
     return (
         <>
             <NextSeo
-                title={`${t('title')} - Dwi Wijaya`}
+                title={`${t('title')} - Teguh Muhammad Harits`}
                 description={t('metaDesc')}
                 additionalLinkTags={[
                     { rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}${pathname}` },

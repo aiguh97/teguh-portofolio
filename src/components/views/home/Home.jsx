@@ -20,7 +20,7 @@ const Home = () => {
                 <div className="!min-w-[108px] max-w-[108px] outline outline-[.5rem] outline-background rounded-2xl bg-container">
                     <Image
                         src={Profile}
-                        alt="Dwi Wijaya"
+                        alt="Teguh Muhammad Harits"
                         loading="eager"
                         className="rounded-2xl"
                         priority={true}
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
             <div className="flex flex-col gap-4">
                 <h1 className="font-bold text-3xl text-text flex items-center gap-3 group">
-                    Dwi Wijaya
+                    Teguh Muhammad Harits
                     <i className="text-green-500 dark:text-green-300 fad fa-check-circle fa-2xs transition-all duration-100 transform group-hover:animate-flip active:scale-150"></i>
                 </h1>
 

@@ -3,7 +3,7 @@ export const schemaMarkup = {
     "@graph": [
         {
             "@type": "Person",
-            "name": "Dwi Wijaya",
+            "name": "Teguh Muhammad Harits",
             "url": "https://dwiwijaya.com/",
             "jobTitle": "Fullstack Developer",
             "worksFor": { "@type": "Organization", "name": "Freelancer" },
@@ -15,7 +15,7 @@ export const schemaMarkup = {
         },
         {
             "@type": "WebSite",
-            "name": "Dwi Wijaya - Personal Website",
+            "name": "Teguh Muhammad Harits - Personal Website",
             "url": "https://dwiwijaya.com/",
             "potentialAction": {
                 "@type": "SearchAction",

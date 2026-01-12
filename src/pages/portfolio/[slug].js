@@ -19,7 +19,7 @@ const DetailPortfolioPage = ({ portfolio }) => {
     return (
         <>
             <NextSeo
-                title={`${portfolio.name} - Dwi Wijaya`}
+                title={`${portfolio.name} - Teguh Muhammad Harits`}
                 description={portfolio.excerpt}
                 additionalLinkTags={[
                     { rel: 'alternate', hreflang: 'x-default', href: `${SITE_URL}${currentPath}` },

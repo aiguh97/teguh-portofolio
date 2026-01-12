@@ -26,19 +26,19 @@
     },
     "About": {
         "title": "About",
-        "metaDesc": "Discover more about Dwi Wijaya, an experienced Fullstack Developer with skills in coding, UI/UX design, and app development. Let's get to know each other better!",
+        "metaDesc": "Discover more about Teguh Muhammad Harits, an experienced Fullstack Developer with skills in coding, UI/UX design, and app development. Let's get to know each other better!",
         "subtitle": "Get to know me a better and discover more beyond the resume.",
         "journeyTitle": "My Journey",
         "valuesTitle": "Values and Philosophy",
         "funTitle": "Fun Facts",
-        "intro": "Hi, I'm Dwi Wijaya, a passionate full-stack web developer with a love for creating dynamic and user-friendly websites. With over 2 years of experience in the industry, I specialize in front-end development and have a keen eye for design and detail. My goal is to create pixel-perfect websites that not only meet the client's needs but also exceed their expectations.",
+        "intro": "Hi, I'm Teguh Muhammad Harits, a passionate full-stack web developer with a love for creating dynamic and user-friendly websites. With over 2 years of experience in the industry, I specialize in front-end development and have a keen eye for design and detail. My goal is to create pixel-perfect websites that not only meet the client's needs but also exceed their expectations.",
         "journey": "My career in web development began during my years at High School, where I majored in Software Engineering. My first job was at a small software house, where I learned the ropes of web development and discovered my passion for coding. Over the years, I have had the opportunity to work on numerous exciting projects. Each experience has contributed to my growth as a developer and has helped me hone my skills.",
         "values": "I believe in continuous learning and improvement. I am driven by a desire to create websites that are not only functional but also aesthetically pleasing. My work is guided by the principles of simplicity, usability, and accessibility. I strive to keep up with the latest trends and technologies in web development to ensure that my skills are always up to date.",
         "funfact": "I don't have any fun facts yet 😭."
     },
     "Services": {
         "title": "Services",
-        "metaDesc": "Explore the specialized services Dwi Wijaya offers, from web development, app development, UI/UX, design to consulting. Tailored solutions to bring your digital vision to life.",
+        "metaDesc": "Explore the specialized services Teguh Muhammad Harits offers, from web development, app development, UI/UX, design to consulting. Tailored solutions to bring your digital vision to life.",
         "subtitle": "Learn about the specialized services I offer to clients.",
         "FAQ": {
             "faqHeading": "Frequently Asked Questions",
@@ -49,7 +49,7 @@
     },
     "Contact": {
         "title": "Get in Touch",
-        "metaDesc": "Reach out to Dwi Wijaya for potential collaborations or inquiries. Connect via social media or send a direct message.",
+        "metaDesc": "Reach out to Teguh Muhammad Harits for potential collaborations or inquiries. Connect via social media or send a direct message.",
         "subtitle": "Reach out and start a conversation about potential collaborations or inquiries.",
         "findSocial": "Find me on social media",
         "orsendMsg": "Or send me a message",
@@ -70,7 +70,7 @@
     },
     "Blog": {
         "title": "Blog",
-        "metaDesc": "Dive into articles on code, creativity, and learning by Dwi Wijaya. Insights and updates from a Full-stack Developer's journey.",
+        "metaDesc": "Dive into articles on code, creativity, and learning by Teguh Muhammad Harits. Insights and updates from a Full-stack Developer's journey.",
         "subtitle": "Exploring the world of code, creativity, and constant learning."
     },
     "Common": {
@@ -79,7 +79,7 @@
     },
     "Dashboard": {
         "title": "Dashboard",
-        "metaDesc": "Explore the personal dashboard of Dwi Wijaya, showcasing page speed insights, GitHub contributions, and LeetCode progress.",
+        "metaDesc": "Explore the personal dashboard of Teguh Muhammad Harits, showcasing page speed insights, GitHub contributions, and LeetCode progress.",
         "subtitle": "This is my personal website dashboard built with serverless function",
         "pagespeedTitle": "Pagespeed Insights",
         "githubTitle": "GitHub Contributions",
@@ -90,19 +90,19 @@
     },
     "Skillset": {
         "title": "Skillset",
-        "metaDesc": "Discover Dwi Wijaya's technical skills, professional tools, and certificates that highlight his expertise in Full-stack development.",
+        "metaDesc": "Discover Teguh Muhammad Harits's technical skills, professional tools, and certificates that highlight his expertise in Full-stack development.",
         "subtitle": "Discover related my technical skills and professional tools.",
         "certificateTitle": "Certificates",
         "certificateSubtitle": "A showcase of my professional certificates."
     },
     "Experience": {
         "title": "Experience",
-        "metaDesc": "Explore the professional background of Dwi Wijaya, highlighting key experiences and career achievements.",
+        "metaDesc": "Explore the professional background of Teguh Muhammad Harits, highlighting key experiences and career achievements.",
         "subtitle": "Find out my professional background and valuable experiences."
     },
     "Portfolio": {
         "title": "Portfolio",
-        "metaDesc": "Browse the portfolio of Dwi Wijaya, showcasing his latest projects and creative achievements in web development, app development, UI/UX design, Design and more.",
+        "metaDesc": "Browse the portfolio of Teguh Muhammad Harits, showcasing his latest projects and creative achievements in web development, app development, UI/UX design, Design and more.",
         "subtitle": "Explore my latest projects and creations.",
         "noPortfolio": "Apologies, there are currently no portfolios available for the {category} category.",
         "seePortfolio": "See Project"
