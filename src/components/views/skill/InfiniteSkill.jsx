@@ -25,9 +25,9 @@ const Utilities = Array.isArray(skills) ? skills.filter((item) => item.type === 
 
         return (
             <section className="section__skills">
-                <SkillsCategory data={Backend} animationTime="120s" reverseAnimation={false} />
-                <SkillsCategory data={Frontend} animationTime="120s" reverseAnimation={true} />
-                <SkillsCategory data={Utilities} animationTime="120s" reverseAnimation={false} />
+                <SkillsCategory data={Backend} animationTime="60s" reverseAnimation={false} />
+                <SkillsCategory data={Frontend} animationTime="66s" reverseAnimation={true} />
+                <SkillsCategory data={Utilities} animationTime="50s" reverseAnimation={false} />
             </section>
         );
     } else {

@@ -44,26 +44,40 @@ const SkillsetPage = ({ skills, certificates }) => {
 export default SkillsetPage;
 
 export const getStaticProps = async () => {
-    let skills = [];
-    let certificates = [];
+  let skills = [];
+  let certificates = [];
 
-    try {
-        skills = await fetcher(`${process.env.NEXT_PUBLIC_API_URL}/skill`);
-    } catch (err) {
-        console.warn('Failed to fetch skills:', err.message);
-    }
+  try {
+    const res = await fetch(
+      `${process.env.API_URL}/skill`
+    );
+    const skillRes = await res.json();
 
-    try {
-        certificates = await fetcher(`${process.env.NEXT_PUBLIC_API_URL}/certificate`);
-    } catch (err) {
-        console.warn('Failed to fetch certificates:', err.message);
-    }
+    skills = Array.isArray(skillRes)
+      ? skillRes
+      : skillRes?.data ?? [];
+  } catch (err) {
+    console.warn('Failed to fetch skills:', err.message);
+  }
 
-    return {
-        props: {
-            skills,
-            certificates,
-        },
-        revalidate: 60, // ISR, refresh tiap 60 detik
-    };
+  try {
+    const certRes = await fetcher(
+      `${process.env.API_URL}/certificate`
+    );
+
+    certificates = Array.isArray(certRes)
+      ? certRes
+      : certRes?.data ?? [];
+  } catch (err) {
+    console.warn('Failed to fetch certificates:', err.message);
+  }
+
+  return {
+    props: {
+      skills,
+      certificates,
+    },
+    revalidate: 60,
+  };
 };
+
