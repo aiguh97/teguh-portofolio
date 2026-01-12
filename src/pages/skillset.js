@@ -9,12 +9,11 @@ import PageHeading from '@/components/common/PageHeading';
 import Container from '@/components/layouts/partials/Container';
 
 const SkillsetPage = ({ skills, certificates }) => {
-
     const t = useTranslations('Skillset');
     const { locale, pathname } = useRouter();
-    const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
-    const lang = locale == 'en' ? '/en' : ''
-    const currentPageURL = `${SITE_URL}${lang}${pathname}`
+    const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || '';
+    const lang = locale === 'en' ? '/en' : '';
+    const currentPageURL = `${SITE_URL}${lang}${pathname}`;
 
     return (
         <>
@@ -39,18 +38,32 @@ const SkillsetPage = ({ skills, certificates }) => {
                 <Skill skills={skills} certificates={certificates} />
             </Container>
         </>
-    )
-}
+    );
+};
 
-export default SkillsetPage
+export default SkillsetPage;
+
 export const getStaticProps = async () => {
+    let skills = [];
+    let certificates = [];
 
-    const skills = await fetcher(`${process.env.API_URL}/skill`)
-    const certificates = await fetcher(`${process.env.API_URL}/certificate`)
+    try {
+        skills = await fetcher(`${process.env.NEXT_PUBLIC_API_URL}/skill`);
+    } catch (err) {
+        console.warn('Failed to fetch skills:', err.message);
+    }
+
+    try {
+        certificates = await fetcher(`${process.env.NEXT_PUBLIC_API_URL}/certificate`);
+    } catch (err) {
+        console.warn('Failed to fetch certificates:', err.message);
+    }
 
     return {
         props: {
-            skills, certificates
+            skills,
+            certificates,
         },
+        revalidate: 60, // ISR, refresh tiap 60 detik
     };
 };

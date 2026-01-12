@@ -68,7 +68,7 @@ export const getGithubUser = async (type) => {
 export const getLastCommitDate = async () => {
     try {
         const response = await axios.get(
-            'https://api.github.com/repos/dwiwijaya/dwiwijaya.com/commits',
+            'https://api.github.com/repos/aiguh97/teguh-portofolio/commits',
             {
                 headers: {
                     Authorization: `Bearer ${process.env.GITHUB_TOKEN_PERSONAL}`,
