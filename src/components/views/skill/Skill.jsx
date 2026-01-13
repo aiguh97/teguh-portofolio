@@ -7,7 +7,6 @@ const Skill = ({skills,certificates}) => {
     const t = useTranslations();
     return (
         <>
-        {/* {JSON.stringify(skills)} */}
             <InfiniteSkill skills={skills} />
             <hr className="hr !my-8" />
             <PageSubHeading title={t('Skillset.certificateTitle')} description={t('Skillset.certificateSubtitle')} icon='fad fa-file-certificate' />

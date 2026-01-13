@@ -33,10 +33,6 @@ const DetailPortfolioPage = ({ portfolio }) => {
             />
             <BackToggle />
             <Container data-aos='fade-up'>
-                <div>detail</div>
-                {/* {
-                    JSON.stringify(portfolio)
-                } */}
                 <DetailPortfolio portfolio={portfolio} locale={locale} />
             </Container>
         </>

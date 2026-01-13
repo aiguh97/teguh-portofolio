@@ -1,13 +1,26 @@
-import { PiArrowsClockwise } from "react-icons/pi"
-const LastUpdated = ({ t, lastUpdate }) => {
-    return (
-        <div className="text-left mt-4 sm:mt-8">
-            <h2 className='text-2xl mb-2 leading-6'>{t('welcome')}</h2>
-            <time className="text-[.8rem] text-subtext flex items-center gap-1">
-                {t("lastupdate")} : {lastUpdate}
-            </time>
-        </div>
-    )
-}
+import { useState, useEffect } from 'react';
 
-export default LastUpdated
+const LastUpdated = ({ lastUpdate, t }) => {
+  const [formattedDate, setFormattedDate] = useState('');
+
+  useEffect(() => {
+    if (lastUpdate) {
+      const date = new Date(lastUpdate);
+      setFormattedDate(
+        date.toLocaleDateString(undefined, {
+          day: 'numeric',
+          month: 'short',
+          year: 'numeric',
+        })
+      );
+    }
+  }, [lastUpdate]);
+
+  return (
+    <div className="text-sm text-gray-500 dark:text-gray-400">
+      {t('lastupdate')}: <time>{formattedDate}</time>
+    </div>
+  );
+};
+
+export default LastUpdated;

@@ -4,7 +4,7 @@ const nextConfig = {
   crossOrigin: 'anonymous',
   reactStrictMode: true,
   i18n: {
-    locales: ['en', 'id'],
+    locales: ['en', 'id','jp'],
     defaultLocale: 'id',
   },
   experimental: {
@@ -16,11 +16,24 @@ const nextConfig = {
     ]
   },
   images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "kvlzhhttysvupongigmr.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
+    ],
     domains: [
       'firebasestorage.googleapis.com',
       'lh3.googleusercontent.com',
       'avatars.githubusercontent.com',
-      'dwiwijaya.com'
+      'teguhdev.com',
+      'kvlzhhttysvupongigmr.supabase.co',
     ],
   },
   webpack(config, { isServer, dev }) {

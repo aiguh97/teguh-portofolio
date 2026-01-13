@@ -10,6 +10,7 @@ import Pin from "@/assets/pin.svg";
 import Image from "@/components/elements/Image";
 
 import PortfolioCategory from "./PortfolioCategory";
+import { getFile } from "@/services/supabase/fileHandler";
 
 const Portfolio = ({ portfolios, locale }) => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -83,6 +84,7 @@ const Portfolio = ({ portfolios, locale }) => {
       excerpt = "",
       slug,
       type = "others",
+      photos
     } = elem;
 
     return (
@@ -107,7 +109,7 @@ const Portfolio = ({ portfolios, locale }) => {
                 </div>
               </div>
               <Image
-                src={thumbnail || "/images/placeholder.png"}
+                src={getFile(photos) || "/images/placeholder.png"}
                 alt={slug}
                 width={999}
                 height={999}

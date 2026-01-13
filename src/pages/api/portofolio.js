@@ -27,6 +27,8 @@ export default async function handler(req, res) {
       };
     });
 
+    console.log("prptofolio",portfolios)
+
     res.status(200).json(portfolios);
   } catch (error) {
     console.error('Failed to fetch portfolios:', error);

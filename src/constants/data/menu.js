@@ -5,6 +5,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Home",
             id: "Beranda",
+            jp: "ホーム", // Home dalam bahasa Jepang
         },
     },
     {
@@ -13,6 +14,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Dashboard",
             id: "Dasbor",
+            jp: "ダッシュボード", // Dashboard
         },
     },
     {
@@ -21,6 +23,7 @@ export const MENU_ITEMS = [
         label: {
             en: "About",
             id: "Tentang",
+            jp: "アバウト", // About
         },
     },
     {
@@ -29,6 +32,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Skillset",
             id: "Keahlian",
+            jp: "スキルセット", // Skillset
         },
     },
     {
@@ -37,6 +41,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Experience",
             id: "Pengalaman",
+            jp: "経験", // Experience
         },
     },
     {
@@ -45,6 +50,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Services",
             id: "Layanan",
+            jp: "サービス", // Services
         },
     },
     {
@@ -53,6 +59,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Portfolio",
             id: "Portofolio",
+            jp: "ポートフォリオ", // Portfolio
         },
     },
     {
@@ -61,6 +68,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Blog",
             id: "Blog",
+            jp: "ブログ", // Blog
         },
     },
     {
@@ -69,6 +77,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Contact",
             id: "Kontak",
+            jp: "連絡先", // Contact
         },
     },
     {
@@ -77,6 +86,7 @@ export const MENU_ITEMS = [
         label: {
             en: "Guestbook",
             id: "Buku Tamu",
+            jp: "ゲストブック", // Guestbook
         },
     },
 ];

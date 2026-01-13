@@ -6,6 +6,7 @@ import { BiChevronRight, BiLinkExternal } from 'react-icons/bi';
 import { PORTFOLIO_CATEGORIES, PORTFOLIO_TYPES } from '@/constants/data/portfolio';
 import "@uiw/react-md-editor/markdown-editor.css";
 import "@uiw/react-markdown-preview/markdown.css";
+import { getFile } from '@/services/supabase/fileHandler';
 
 const MDEditorPreview = dynamic(
   () => import("@uiw/react-markdown-preview").then((module) => module.default),
@@ -41,10 +42,10 @@ const DetailPortfolio = ({ portfolio, locale }) => {
         }
       </div>
 
-      {portfolio.thumbnail
+      {portfolio.photos
         ? <Image
             alt={portfolio.name}
-            src={portfolio.thumbnail}
+            src={getFile(portfolio.photos)}
             width={0}
             height={0}
             sizes="100vw"

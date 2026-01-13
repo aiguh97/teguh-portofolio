@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
 
-const PortfolioPage = ({ portfolios }) => {
+const PortfolioPage = ({ portfolios,data }) => {
 
     const t = useTranslations('Portfolio');
     const { locale, pathname } = useRouter();
@@ -34,7 +34,6 @@ const PortfolioPage = ({ portfolios }) => {
                     title={t('title')}
                     description={t('subtitle')}
                 />
-                <div>sadads {JSON.stringify(portfolios)}</div>
                 <Portfolio portfolios={portfolios} locale={locale} />
             </Container>
         </>
@@ -43,13 +42,20 @@ const PortfolioPage = ({ portfolios }) => {
 
 export default PortfolioPage
 export const getStaticProps = async () => {
+  console.log("API_URL:", process.env.API_URL); // debug di server
   const res = await fetch(`${process.env.API_URL}/portfolio`);
   const data = await res.json();
 
+  const portfolios = (data.items || []).map(item => ({
+    ...item,
+  }));
+
   return {
     props: {
-      portfolios: data.items || [], // ambil array items saja
+      portfolios,
+      api: data || []
     },
     revalidate: 1,
   };
 };
+
